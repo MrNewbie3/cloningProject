@@ -7,11 +7,11 @@ import Sidebar from "../mainPage/sidebar";
 class App extends Component {
   render() {
     return (
-      <div className="App ">
+      <div className="App bg-stone-100">
         <Navbar />
         <div className="grid grid-cols-6">
           <Sidebar />
-          <div class="container col-span-5 px-5">
+          <div className="container col-span-5 px-5">
             <Main />
             <Announcement />
             <Report />

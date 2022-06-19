@@ -8,12 +8,12 @@ class Announcement extends React.Component {
           <p className="text-white font-bold">NOMOR WA Anda adalah 6285855xxxxxx</p>
           <p className="text-white font-bold">Pastikan No WA anda Aktif. Klik disini untuk merubahnya</p>
         </div>
-        <div class="container w-full bg-blue-500 sm:flex px-3 py-3">
+        <div className="container w-full bg-blue-500 sm:flex px-5 py-5">
           <p className="text-white ">Tidak ada piket hari ini</p>
         </div>
-        <div class="container w-full bg-green-500 sm:flex px-3 py-3 my-4">
+        <div className="container w-full bg-green-500 sm:flex px-5 py-5 my-4">
           <p className="text-white">
-            <span class="font-bold">SETUJU</span> mengikuti KBM Luring. | <span className="text-black italic font-bold text-xs">Unduh surat pernyataan</span>
+            <span className="font-bold">SETUJU</span> mengikuti KBM Luring. | <span className="text-black italic font-bold text-xs">Unduh surat pernyataan</span>
           </p>
         </div>
       </div>
